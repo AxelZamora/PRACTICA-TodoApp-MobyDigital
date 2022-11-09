@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Todo App MobyDigital</title>
+		<link rel="stylesheet" href="main.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="container">
+			<h1>¿Qué haremos hoy?</h1>
+			<form class="todo-form">
+				<div class="form-wrapper">
+					<input type="text" name="name" autofocus />
+				</div>
+				<div class="form-wrapper">
+					<button type="submit">Agregar tarea</button>
+				</div>
+			</form>
+			<div class="todo-stats">
+				<div class="options">
+					<label>
+						<div class="total-tasks"><span>0</span></div>
+						<span>Totales</span>
+					</label>
+					<label>
+						<div class="completed-tasks"><span>0</span></div>
+						<span>Completas</span>
+					</label>
+					<label>
+						<div class="remaining-tasks"><span>0</span></div>
+						<span>Pendientes</span>
+					</label>
+				</div>
+			</div>
+			<ol class="todo-list"></ol>
+		</div>
+	</body>
+	<script src="main.js"></script>
+</html>
